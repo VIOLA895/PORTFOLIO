@@ -1,0 +1,97 @@
+/* styles.css */
+
+/* Make navbar links display inline */
+header nav ul {
+    list-style-type: none; ;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 20px; /* Adjust spacing between navbar items */
+  }
+  
+  header nav ul li a {
+    text-decoration: underline;
+    color: blue; /* Set navbar link color */
+    font-family: 'Roboto', sans-serif; /* Ensure Roboto font is applied */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  /* Hover effect on navigation links */
+header nav ul li a:hover {
+  color: greenyellow; /* Change color on hover */
+}
+
+/* Apply Roboto font globally */
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+/* Styling for sections */
+section {
+    padding: 40px;
+    background-color: pink;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for section headings */
+  section h1 {
+    color:maroon;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for section content */
+  section p {
+    color:gray;
+    line-height: 1.6;
+  }
+  
+  /* Styling for images within sections */
+  section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  /* Styling for form inputs */
+  section form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  section form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  section form input[type="text"],
+  section form input[type="email"],
+  section form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  section form input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  section form input[type="submit"]:hover {
+    background-color: brown;
+  }
